@@ -8,18 +8,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Pages
 import Home from "./Pages/Home/Home.jsx";
 import Page404 from "./Error/Page404/Page404.jsx";
+import LogIn from "./Pages/Forms/LogIn.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Page404 />,
     children: [
       {
-        path: "/",
+        path: "/home",
         element: <Home />,
       },
     ],
-    errorElement: <Page404 />,
+  },
+  {
+    path: "/login",
+    element: <LogIn />,
   },
 ]);
 
