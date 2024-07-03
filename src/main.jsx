@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
 import Page404 from "./Error/Page404/Page404.jsx";
 import LogIn from "./Pages/Forms/LogIn.jsx";
+import CategoryPage from "./Pages/Category/CategoryPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
     errorElement: <Page404 />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Home />,
+      },
+      {
+        path: "/categories/:category",
+        element: <CategoryPage />,
       },
     ],
   },

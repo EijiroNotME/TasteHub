@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DesktopNav from "./DesktopNav";
-import Logo from "/Tastehub.svg";
+import Logo from "/Tastehub-lg.svg";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
