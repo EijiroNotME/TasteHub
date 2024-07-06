@@ -9,7 +9,10 @@ const DesktopNav = ({ menuItems, Logo }) => {
       <ul className="flex gap-7">
         {menuItems?.map((menu, index) => (
           <li>
-            <Link to={menu} className="font-medium capitalize text-secondary">
+            <Link
+              to={menu}
+              className="font-medium capitalize text-secondary hover:text-accent transition-all duration-300 ease-linear"
+            >
               {menu}
             </Link>
           </li>
