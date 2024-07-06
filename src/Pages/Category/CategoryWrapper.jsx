@@ -34,7 +34,7 @@ function CategoryList() {
         name="breakfast"
         href="/categories/breakfast"
         backgroundColor="#fffacd"
-        color="#b0a327"
+        color="#756C1A"
       />
 
       <CategoryItem

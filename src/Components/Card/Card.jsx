@@ -8,7 +8,7 @@ const Card = ({ item }) => {
     },
     Breakfast: {
       backgroundColor: "#fffacd",
-      color: "#b0a327",
+      color: "#756C1A",
     },
     Lunch: {
       backgroundColor: "#ffe8cc",
@@ -28,7 +28,7 @@ const Card = ({ item }) => {
     },
   };
   return (
-    <div className="relative h-96 flex flex-col justify-between bg-white shadow-lg shadow-secondary/30 rounded-lg overflow-hidden m-4 transition-all duration-500 ease-in-out hover:scale-105">
+    <div className="relative h-96 flex flex-col justify-between bg-primary shadow-lg shadow-secondary/30 rounded-lg overflow-hidden m-4 transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer">
       <p className="absolute top-2 right-2 px-4 py-2 text-secondary bg-primary rounded-md font-semibold">
         {item.more.difficulty}
       </p>
