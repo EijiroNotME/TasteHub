@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="mt-8 flex gap-6">
               <li>
                 <a
-                  href="#"
+                  href="/coming-soon"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
@@ -42,7 +42,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/coming-soon/1"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
@@ -66,7 +66,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/coming-soon/2"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
@@ -86,7 +86,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/coming-soon"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
@@ -110,7 +110,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/coming-soon"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75"
@@ -141,7 +141,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -151,7 +151,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -161,7 +161,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -171,7 +171,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -181,7 +181,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -197,7 +197,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -207,7 +207,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -217,7 +217,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -233,7 +233,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -243,7 +243,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -253,7 +253,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -269,7 +269,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -279,7 +279,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -289,7 +289,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -299,7 +299,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
