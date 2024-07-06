@@ -21,12 +21,12 @@ const DesktopNav = ({ menuItems, Logo }) => {
       {/* Login and Sign up */}
       <ul className="flex items-center gap-4 font-medium">
         <li>
-          <button className="text-secondary px-4 py-2 rounded">
+          <button className="text-secondary px-4 py-2 rounded  hover:text-accent transition duration-300">
             <Link to="/login">Log In</Link>
           </button>
         </li>
         <li>
-          <button className="text-primary px-4 py-2 rounded-lg bg-accent hover:bg-accent/80">
+          <button className="text-primary px-6 py-2 rounded-lg bg-accent hover:bg-primaryDark hover:text-secondary shadow-lg transition duration-300">
             <Link to="/sign-up">Sign Up</Link>
           </button>
         </li>

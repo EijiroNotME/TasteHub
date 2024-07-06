@@ -13,9 +13,11 @@ const DisplayPage = ({ searchQuery }) => {
         {filteredItems.length > 0 ? (
           filteredItems.map((item) => <Card key={item._id} item={item} />)
         ) : (
-          <h1 className="col-span-full text-center text-secondary/30 text-2xl font-bold">
-            No Items found...
-          </h1>
+          <div className="flex items-center justify-center h-full col-span-4">
+            <h1 className="text-center text-secondary/30 text-2xl font-bold">
+              No Items found...
+            </h1>
+          </div>
         )}
       </div>
     </div>

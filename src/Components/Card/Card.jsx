@@ -1,6 +1,13 @@
 import { GoClock } from "react-icons/go";
+import { useNavigate } from "react-router-dom";
 
 const Card = ({ item }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/items/${item._id}`);
+  };
+
   const categoryStyles = {
     Entrees: {
       backgroundColor: "#d4e8d4",
@@ -27,8 +34,12 @@ const Card = ({ item }) => {
       color: "#a83f3f",
     },
   };
+
   return (
-    <div className="relative h-96 flex flex-col justify-between bg-primary shadow-lg shadow-secondary/30 rounded-lg overflow-hidden m-4 transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer">
+    <div
+      className="relative h-96 flex flex-col justify-between bg-primary shadow-lg shadow-secondary/30 rounded-lg overflow-hidden m-4 transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer"
+      onClick={handleClick}
+    >
       <p className="absolute top-2 right-2 px-4 py-2 text-secondary bg-primary rounded-md font-semibold">
         {item.more.difficulty}
       </p>

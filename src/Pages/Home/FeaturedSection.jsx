@@ -27,7 +27,7 @@ const FeaturedPage = () => {
         <p className="text-xl mt-4 text-secondary">{featuredItems.details}</p>
         <div className="lg:mt-0 lg:flex-shrink-0">
           <div className="mt-12 inline-flex">
-            <button className="py-4 px-8 hover:bg-accent text-secondary hover:text-primary transition ease-in duration-200 text-center text-base font-semibold border border-secondary hover:border-primary shadow-lg shadow-secondary/20 focus:outline-none rounded-lg mb-5">
+            <button className="py-4 px-8 bg-primaryDark hover:bg-accent text-secondary hover:text-primary transition ease-in duration-200 border-none text-center text-base font-semibold border shadow-lg shadow-secondary/20 focus:outline-none rounded-lg mb-5">
               Recipe
             </button>
           </div>

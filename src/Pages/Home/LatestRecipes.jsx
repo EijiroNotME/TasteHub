@@ -17,7 +17,7 @@ const LatestRecipes = () => {
         ))}
       </div>
       <div className="mt-12 flex justify-center">
-        <button className="w-[50%] py-4 px-8 hover:bg-accent text-secondary hover:text-primary transition ease-in duration-200 text-center text-base font-semibold border border-secondary hover:border-primary shadow-lg shadow-secondary/20 focus:outline-none rounded-lg mb-5">
+        <button className="w-[45%] py-4 px-8 bg-primaryDark hover:bg-accent text-secondary hover:text-primary transition ease-in duration-200 border-none text-center text-base font-semibold border shadow-lg shadow-secondary/20 focus:outline-none rounded-lg mb-5">
           Recipe
         </button>
       </div>
